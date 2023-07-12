@@ -1,6 +1,16 @@
  /*!!!!! Welcome to EmployeePayrollProblem !!!!*/
 
-Create database Payroll_service   /* CREATE DATABASE */
+Create database Employee_Payroll   /* CREATE DATABASE */
 
-use payroll_service
+use Employee_Payroll
+
+create table employee_payroll
+(
+ Id int primary key identity,
+ Name varchar(40) NOT NULL,
+ Salary int,
+ StartDate Date NOT NULL
+)
+
+select * from employee_payroll
 
