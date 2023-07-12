@@ -14,3 +14,8 @@ create table employee_payroll
 
 select * from employee_payroll
 
+insert into employee_payroll values('Ram', 50000, '2023-04-21'),
+                                   ('Shyam', 20000, '2023-04-21'),
+								   ('Bhole', 70000, '2023-04-21'),
+								   ('Durga', 50000, '2023-04-21')
+
