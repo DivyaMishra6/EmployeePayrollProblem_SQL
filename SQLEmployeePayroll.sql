@@ -48,5 +48,15 @@ where Gender = 'M' group by Gender;
 select COUNT(*) from employee_payroll
 where Gender = 'F' group by Gender;
 
+select * from employee_payroll
+
+
+/* #######################   SECTION 2  #################################### */
+
+ALTER TABLE employee_payroll  /* adding new column to employee_payroll */
+ADD Phone_Number VARCHAR(40),
+    address VARCHAR(50) DEFAULT 'NOT KNOWN' NULL,
+    department VARCHAR(50) DEFAULT 'NOT KNOWN' NOT NULL;
+
 
 
